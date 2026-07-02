@@ -12,7 +12,7 @@ comma-separated tables. Several columns in `Fragrantica.csv` are JSON-encoded
 | `Fragrantica.csv.zip` | 92,589 | **Primary dataset.** Perfume records from Fragrantica, used throughout the paper (Figures 1–4). Unzip to `Fragrantica.csv` before use. |
 | `Aromo.csv` | 78,409 | Independent perfume database (Aromo). Used to cross-validate note/accord coverage and ratings (Figure S1). |
 | `Parfumo.csv` | 59,315 | Independent perfume database (Parfumo). Second cross-validation source (Figure S1). |
-| `FIG.csv` | 3,159 |Fragrance Ingredient Glossary (FIG), April 2020 Edition ({https://ifrafragrance.org). Used for the descriptor-vs-vocabulary analysis (Figure S6). |
+| `FIG.csv` | 3,159 |Fragrance Ingredient Glossary (FIG), April 2020 Edition (https://ifrafragrance.org). Used for the descriptor-vs-vocabulary analysis (Figure S6). |
 
 ## Columns
 
