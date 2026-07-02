@@ -40,6 +40,4 @@ scent resembles — the basis for the resemblance/copy network).
 
 ## Notes
 
-- The three perfume databases (Fragrantica, Aromo, Parfumo) are community-
-  contributed and were only used for research use; they are partially anonymized and provided here for
-  reproducibility of the analyses only.
+- The three perfume databases (Fragrantica, Aromo, and Parfumo) are community-contributed and were used here for research purposes only. They are partially anonymized and provided solely for reproducibility of the analyses. For any use beyond scientific research, please contact the respective platform.
