@@ -4,23 +4,15 @@ Data used by the notebooks in [`../Notebooks`](../Notebooks). All files are
 comma-separated tables. Several columns in `Fragrantica.csv` are JSON-encoded
 (see below); the notebooks parse them with helpers in [`../utils`](../utils).
 
-> **Unzip first.** `Fragrantica.csv` (~98 MB uncompressed) is stored as
-> `Fragrantica.csv.zip` (~23 MB) to stay within GitHub's file-size limits.
-> Before running any notebook, unzip it in place so that `Fragrantica.csv`
-> sits next to this README:
->
-> ```bash
-> unzip Fragrantica.csv.zip
-> ```
 
 ## Files
 
 | File | Rows | Description |
 |------|-----:|-------------|
-| `Fragrantica.csv.zip` | 92,589 | **Primary dataset.** Perfume records scraped from Fragrantica, used throughout the paper (Figures 1–4). Unzip to `Fragrantica.csv` before use. |
+| `Fragrantica.csv.zip` | 92,589 | **Primary dataset.** Perfume records from Fragrantica, used throughout the paper (Figures 1–4). Unzip to `Fragrantica.csv` before use. |
 | `Aromo.csv` | 78,409 | Independent perfume database (Aromo). Used to cross-validate note/accord coverage and ratings (Figure S1). |
 | `Parfumo.csv` | 59,315 | Independent perfume database (Parfumo). Second cross-validation source (Figure S1). |
-| `FIG.csv` | 3,159 | Fragrance-ingredient **patent** records (CAS number, descriptors, priority/grant dates). Used for the patents-vs-vocabulary analysis (Figure S6). |
+| `FIG.csv` | 3,159 |Fragrance Ingredient Glossary (FIG), April 2020 Edition (\url{https://ifrafragrance.org/}). Used for the descriptor-vs-vocabulary analysis (Figure S6). |
 
 ## Columns
 
@@ -49,8 +41,5 @@ scent resembles — the basis for the resemblance/copy network).
 ## Notes
 
 - The three perfume databases (Fragrantica, Aromo, Parfumo) are community-
-  contributed and were scraped for research use; they are provided here for
+  contributed and were only used for research use; they are partially anonymized and provided here for
   reproducibility of the analyses only.
-- Years, ratings, and vote counts are self-reported by each site's users and
-  can be missing or noisy; the notebooks apply their own quality filters
-  (e.g. `Total_votes >= 286`).
