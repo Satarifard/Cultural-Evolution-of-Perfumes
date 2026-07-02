@@ -6,10 +6,10 @@ past century.
 
 ## Structure
 
-- **[`dataset/`](dataset)** — the perfume and patent datasets ([details](dataset/README.md)).
-- **[`Notebooks/`](Notebooks)** — one notebook per main figure ([figure map](Notebooks/README.md)).
+- **[`dataset/`](dataset)** — the perfume and patent datasets.
+- **[`Notebooks/`](Notebooks)** — one notebook per main figure.
 - **[`utils/`](utils)** — shared parsing/analysis helpers.
-- **`output/`** — generated figures.
+- **[`output/`](output)** — generated figures.
 
 ## Quick start
 
