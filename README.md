@@ -22,5 +22,5 @@ Then open any notebook in `Notebooks/` and run it top to bottom.
 ## Citation
 
 > V. Satarifard, F. Baumann, G. Minsky, L. Sisson, L. M. Haux, C. Laudamiel, and
-> N. A. Christakis. *Olfactory Cultural Evolution of Perfumes since 1900.*
+> N. A. Christakis. *Cultural Evolution of Perfumes since 1900.*
 > Under Review (2026).
