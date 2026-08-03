@@ -23,4 +23,4 @@ Then open any notebook in `Notebooks/` and run it top to bottom.
 
 > V. Satarifard, F. Baumann, G. Minsky, L. Sisson, L. M. Haux, C. Laudamiel, and
 > N. A. Christakis. *Cultural Evolution of Perfumes since 1900.*
-> Under Review (2026).
+> arXiv preprint arXiv:2607.19520 (2026).
